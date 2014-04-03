@@ -21,7 +21,7 @@ function ft_split($str)
 
 if ($argc > 1)
 {
-	$tmp = preg_replace("/\t/", "/ /", $argv[1]);
+	$tmp = preg_replace("/\t/", " ", $argv[1]);
 	$tmp = ft_split($tmp);
 	foreach ($tmp as $key => $value)
 	{
